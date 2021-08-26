@@ -27,7 +27,7 @@ dis = pygame.display.set_mode((1280, 720))
 pygame.display.set_caption('Daman')
 
 # objects
-sound = pygame.mixer.music.load('E:/Music/Jetpack Joyride OST _musical_score__musical_keyboard_ - Main Theme ( 256kbps cbr ).mp3')
+sound = pygame.mixer.music.load('Jetpack Joyride OST _musical_score__musical_keyboard_ - Main Theme ( 256kbps cbr ).mp3')
 pygame.mixer.music.play(-1, 0.0, 0)
 lab = pygame.image.load('lab4c.jpg').convert()
 lab = pygame.transform.scale(lab, (2372, 580))
